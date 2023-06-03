@@ -1,0 +1,12 @@
+{
+  "extends": ["@hunghg255/eslint-config-ts"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": [0],
+        "@typescript-eslint/explicit-module-boundary-types": [0]
+      }
+    }
+  ]
+}

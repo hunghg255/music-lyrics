@@ -1,0 +1,62 @@
+{
+  "name": "@hunghg255/music-lyrics",
+  "version": "0.0.2",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "esmodule": "dist/index.esmodule.js",
+  "umd:main": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "umd": "./dist/index.umd.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.module.js"
+    }
+  },
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx src --color",
+    "size": "npm run build && size-limit",
+    "check-types": "tsc --noEmit true",
+    "build": "del-cli 'dist/*' && microbundle build --entry src/index.ts --name music-lyrics --tsconfig tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "hunghg255",
+  "license": "MIT",
+  "devDependencies": {
+    "@hunghg255/eslint-config-ts": "^0.0.2",
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.41.0",
+    "microbundle": "^0.15.1",
+    "prettier": "^2.8.8",
+    "size-limit": "^8.2.4",
+    "typescript": "^4.8.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "size-limit": [
+    {
+      "path": "dist/index.module.js",
+      "name": "SearchLyrics",
+      "import": "{ SearchLyrics }",
+      "limit": "3 KB"
+    }
+  ],
+  "homepage": "https://github.com/hunghg255/music-lyrics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hunghg255/music-lyrics"
+  },
+  "bugs": {
+    "url": "https://github.com/hunghg255/music-lyrics/issues"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "superagent": "^8.0.9"
+  }
+}
