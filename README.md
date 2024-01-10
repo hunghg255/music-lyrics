@@ -1,7 +1,19 @@
-# Musci Lyrics without API
+<p align="center">
+<a href="https://www.npmjs.com/package/@hunghg255/music-lyrics" target="_blank" rel="noopener noreferrer">
+<img src="https://api.iconify.design/material-symbols-light:lyrics-outline.svg?color=%23eeb86d" alt="logo" width='100'/></a>
+</p>
 
-[![npm version](https://badge.fury.io/js/@hunghg255/music-lyrics.svg)](https://badge.fury.io/js/@hunghg255/music-lyrics) [![npm](https://img.shields.io/npm/dw/@hunghg255/music-lyrics.svg?logo=npm)](https://www.npmjs.com/package/@hunghg255/music-lyrics) [![npm](https://img.shields.io/bundlephobia/minzip/@hunghg255/music-lyrics)](https://www.npmjs.com/package/@hunghg255/music-lyrics)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<p align="center">
+  A tiny JavaScript library find lyrics of a song.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@hunghg255/music-lyrics" target="_blank" rel="noopener noreferrer"><img src="https://badge.fury.io/js/csvs-parsers.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/@hunghg255/music-lyrics" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/dt/csvs-parsers.svg?logo=npm" alt="NPM Downloads" /></a>
+  <a href="https://bundlephobia.com/result?p=@hunghg255/music-lyrics" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/bundlephobia/minzip/@hunghg255/music-lyrics" alt="Minizip" /></a>
+  <a href="https://github.com/hunghg255/music-lyrics/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg" alt="Contributors" /></a>
+  <a href="https://github.com/hunghg255/music-lyrics/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/github/license/hunghg255/@hunghg255/music-lyrics" alt="License" /></a>
+</p>
 
 ## Install
 
